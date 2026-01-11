@@ -9,3 +9,9 @@
   background: #ecff77; /* selection background */
   color: #0b1f18; /* selected text color */
 }
+
+input,
+textarea,
+[contenteditable='true'] {
+  caret-color: #ecff77;
+}
