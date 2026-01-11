@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Assets
-import bg from './assets/bg.webp';
+import bg from './assets/bg.png';
 
 // Icons
 import { FaGithub } from 'react-icons/fa6';
@@ -27,7 +27,7 @@ const page = () => {
     <div className="font-inter relative flex h-screen w-screen items-center justify-center text-white">
       <Image src={bg} alt="bg" priority className="absolute inset-0 h-full w-full object-cover" />
 
-      <div className="relative z-10 h-[85vh] w-[85vw] overflow-hidden rounded-4xl border border-white bg-white/30 bg-gradient-to-br from-[#984EFF]/30 to-[#DFDBE9]/30 backdrop-blur-[7px]">
+      <div className="relative z-10 h-[85vh] w-[85vw] overflow-hidden rounded-4xl border border-white bg-white/30 bg-gradient-to-br from-pink-900/30 to-purple-900/30 backdrop-blur-[5px]">
         {/* Navbar */}
         <nav className="absolute top-0 left-0 flex w-full flex-row items-center justify-between px-8 py-4">
           {/* Title */}
