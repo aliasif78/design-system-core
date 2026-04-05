@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Frontend Design Experience Platform - https://frontend-design-steel.vercel.app/
 
-## Getting Started
+> **A multi-experience Next.js platform that showcases production-grade UI systems for brand, product, and engagement use cases.** It solves the business need to prototype and validate premium digital experiences quickly across different customer journeys, while maintaining consistent performance and engineering quality at scale.
 
-First, run the development server:
+## 🏗️ Architecture & Key Capabilities
+
+- 🧭 **Route-Isolated Experience Architecture (Next.js App Router):** Separate route domains (home, Nike Jordan, Upper, Quiz Tower) encapsulate distinct visual systems, enabling independent iteration without cross-page regressions.
+- 🛡️ **Client-Safe Animation Bootstrapping (React + Dynamic Imports):** Browser-only animation dependencies are initialized in a client provider using lazy loading, preventing hydration mismatches and protecting runtime reliability.
+- 🧩 **Composable Section Engine (React Component System):** The Upper experience is decomposed into reusable feature sections and UI primitives, which reduces delivery time for new pages and improves maintainability.
+- ⚡ **Perceived-Performance Motion Strategy (Framer Motion + Lottie):** Staggered entrances, micro-interactions, and lightweight vector animations increase user engagement without introducing heavy rendering overhead.
+
+## 🛠️ Tech Stack
+
+- **💻 Frontend:** Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, Framer Motion, Lottie Web, Lordicon, React Icons
+- **🗄️ Infrastructure & Ops:** Frontend-only stateless architecture (no database), Vercel-ready deployment model, ESLint 9 (Next.js core-web-vitals), Prettier + prettier-plugin-tailwindcss
+
+## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/aliasif78/design-system-core.git
+cd frontend-design
+npm install
+# no environment variables required for local run
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
