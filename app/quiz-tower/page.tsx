@@ -34,10 +34,16 @@ const page = () => {
           <h2 className="text-2xl font-bold">QuizTower</h2>
 
           {/* Links */}
-          <div className="flex flex-row items-center gap-[4rem]">
-            <Link href="/">Home</Link>
-            <Link href="/nike-jordan">Nike</Link>
-            <Link href="/">Contact</Link>
+          <div className="flex flex-row items-center gap-3">
+            <Link href="/upper" className="rounded-full border border-white/25 bg-white/5 px-4 py-1.5 transition duration-300 hover:bg-white/20">
+              Upper
+            </Link>
+            <Link href="/nike-jordan" className="rounded-full border border-white/25 bg-white/5 px-4 py-1.5 transition duration-300 hover:bg-white/20">
+              Nike Jordan
+            </Link>
+            <Link href="/quiz-tower" className="rounded-full border border-white/35 bg-white/25 px-4 py-1.5">
+              Quiz Tower
+            </Link>
           </div>
 
           {/* Button */}
