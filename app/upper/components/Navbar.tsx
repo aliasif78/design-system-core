@@ -39,10 +39,10 @@ const Navbar = () => {
       <span className="flex flex-row items-center gap-6">
         <AnimatedIcon fileName="cart" />
 
-        <button className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-[#2a604c] px-4 py-2 transition duration-300 hover:bg-[#2a604c]">
+        <Link href="https://github.com/aliasif78/design-system-core" target="_blank" className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-[#2a604c] px-4 py-2 transition duration-300 hover:bg-[#2a604c]">
           <FaGithub size={20} />
-          Github
-        </button>
+          GitHub
+        </Link>
       </span>
     </nav>
   );

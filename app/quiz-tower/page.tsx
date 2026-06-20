@@ -47,10 +47,10 @@ const page = () => {
           </div>
 
           {/* Button */}
-          <button className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-black">
+          <Link href="https://github.com/aliasif78/design-system-core" target="_blank" className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-black">
             <FaGithub className="text-2xl" />
-            Github
-          </button>
+            GitHub
+          </Link>
         </nav>
 
         {/* Main Content */}
